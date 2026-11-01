@@ -61,12 +61,3 @@ Upload **one PDF only**, with three task headings, labelled genuine terminal scr
 
 Cleanup after capturing evidence: `docker compose down`. Do not use `down -v`; it deletes exercise database volume. Do not remove unrelated containers/volumes.
 
-## Rubric — 20 marks
-
-| Task | Criteria requested above | Marks |
-|---|---|---:|
-| 1 | Original host failure and inside response (2); correct bind setting (2); host HTTP200 (1); accurate bind explanation (1) | 6 |
-| 2 | Initial reachable database probe (1); database host publication removed while internal connection preserved (2); closed probe plus running database/no host mapping (2); successful app read and internal-path explanation (2) | 7 |
-| 3 | Created note ID/text (2); restart and matching later note (2); both services running (1); two accurate persistence/backup findings (1 each) | 7 |
-
-Grade only these requirements; accept equivalent correct wording. Missing evidence affects its matching criterion only: no duplicate deductions or automatic whole-assessment zero. Screenshots establish requested local behavior, not cloud deployment. Time budget: 8 + 8 + 9 + 5 = 30 minutes; student timing pilot not yet measured.
